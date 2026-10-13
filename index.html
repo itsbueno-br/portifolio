@@ -1,0 +1,508 @@
+<!DOCTYPE html>
+<html lang="pt-BR" data-lang="pt">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Maxine | Portfólio</title>
+    
+    <!-- Link para o arquivo CSS -->
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+    <!-- Barra de Navegação (Navbar) -->
+    <header class="navbar">
+        <div class="container nav-container">
+            <!-- Logo / Marca Pessoal -->
+            <a href="#" class="logo">maxine<span>.dev</span></a>
+
+            <!-- Menu de Links -->
+            <nav class="nav-menu" id="nav-menu">
+                <ul class="nav-list">
+                    <li><a href="#sobre" class="nav-link" data-pt="Sobre" data-en="About">Sobre</a></li>
+                    <li><a href="#projetos" class="nav-link" data-pt="Projetos" data-en="Projects">Projetos</a></li>
+                    <li><a href="#experiencia" class="nav-link" data-pt="Experiência" data-en="Experience">Experiência</a></li>
+                    <li><a href="#cursos" class="nav-link" data-pt="Cursos" data-en="Courses">Cursos</a></li>
+                    <li><a href="#contato" class="nav-link" data-pt="Contato" data-en="Contact">Contato</a></li>
+                </ul>
+
+                <!-- Seletor de Idioma -->
+                <div class="lang-selector">
+                    <button class="lang-btn active" id="btn-pt">PT</button>
+                    <span class="lang-divider">|</span>
+                    <button class="lang-btn" id="btn-en">EN</button>
+                </div>
+            </nav>
+
+            <!-- Botão Hambúrguer para Celular -->
+            <button class="hamburger" id="hamburger" aria-label="Abrir menu">
+                <span class="bar"></span>
+                <span class="bar"></span>
+                <span class="bar"></span>
+            </button>
+        </div>
+    </header>
+
+    <!-- Seção Principal (Hero) -->
+    <section class="hero">
+        <div class="container hero-container">
+            <div class="hero-content">
+                
+                <!-- Tag de Disponibilidade -->
+                <div class="badge-status">
+                    <span class="status-dot"></span>
+                    <span data-pt="Disponível para oportunidades" data-en="Available for opportunities">Disponível para oportunidades</span>
+                </div>
+
+                <!-- Título com Nome -->
+                <h1 class="hero-title">
+                    Maxine <br>
+                    <span class="title-outline">Bueno</span>
+                </h1>
+
+                <!-- Subtítulo / Profissão -->
+                <h2 class="hero-subtitle" data-pt="Suporte de TI e Desenvolvimento" data-en="IT Support & Software Development">
+                    Suporte de TI e Desenvolvimento
+                </h2>
+
+                <!-- Parágrafo Apresentação -->
+                <p class="hero-description" data-pt="Atuo no suporte técnico de TI e me dedico ao desenvolvimento de software. Transformo desafios em sistemas simples, organizados e eficientes." data-en="Working in IT technical support and focused on software development. Turning complex challenges into simple, organized, and efficient systems.">
+                    Atuo no suporte técnico de TI e me dedico ao desenvolvimento de software. Transformo desafios em sistemas simples, organizados e eficientes.
+                </p>
+
+                <!-- Informações Rápidas -->
+                <div class="hero-info">
+                    <div class="info-item">
+                        <span class="info-label" data-pt="local" data-en="location">local</span>
+                        <strong class="info-value">São Paulo, SP</strong>
+                    </div>
+                    <div class="info-item">
+                        <span class="info-label" data-pt="curso" data-en="course">curso</span>
+                        <strong class="info-value">ADS</strong>
+                    </div>
+                    <div class="info-item">
+                        <span class="info-label" data-pt="faculdade" data-en="college">faculdade</span>
+                        <strong class="info-value">FIAP</strong>
+                    </div>
+                </div>
+
+                <!-- Botões de Ação -->
+                <div class="hero-buttons">
+                    <a href="#projetos" class="btn btn-primary" data-pt="Ver projetos" data-en="View projects">Ver projetos</a>
+                    <a href="#contato" class="btn btn-secondary" data-pt="Falar comigo" data-en="Contact me">Falar comigo</a>
+                </div>
+
+            </div>
+        </div>
+    </section>
+
+    <!-- Seção Sobre Mim -->
+    <section id="sobre" class="about">
+        <div class="container about-container">
+            <h2 class="about-title" data-pt="Sobre mim" data-en="About me">Sobre mim</h2>
+
+            <div class="about-content">
+                <p class="about-text" data-pt="Atuo como aprendiz de suporte técnico de TI na RedeTV!, lidando com suporte a usuários, configuração de equipamentos e solução de problemas de hardware e software." data-en="Working as an IT technical support apprentice at RedeTV!, handling user support, equipment configuration, and hardware/software troubleshooting.">
+                    Atuo como aprendiz de suporte técnico de TI na RedeTV!, lidando com suporte a usuários, configuração de equipamentos e solução de problemas de hardware e software.
+                </p>
+
+                <p class="about-text" data-pt="Estudo Análise e Desenvolvimento de Sistemas na FIAP, com foco em programação orientada a objetos, Java, Spring Boot e Python para análise de dados e automações inteligentes." data-en="Studying Systems Analysis and Development at FIAP, focusing on object-oriented programming, Java, Spring Boot, and Python for data analysis and intelligent automations.">
+                    Estudo Análise e Desenvolvimento de Sistemas na FIAP, com foco em programação orientada a objetos, Java, Spring Boot e Python para análise de dados e automações inteligentes.
+                </p>
+
+                <p class="about-text" data-pt="Gosto de unir a prática diária de infraestrutura e suporte com o desenvolvimento de software limpo e eficiente, transformando problemas complexos em soluções simples." data-en="I enjoy combining daily infrastructure and support practice with clean, efficient software development, turning complex problems into simple solutions.">
+                    Gosto de unir a prática diária de infraestrutura e suporte com o desenvolvimento de software limpo e eficiente, transformando problemas complexos em soluções simples.
+                </p>
+
+                <!-- Informações Detalhadas -->
+                <div class="about-info">
+                    <div class="about-info-item">
+                        <span class="about-info-label" data-pt="formação" data-en="degree">formação</span>
+                        <strong class="about-info-value" data-pt="Análise e Desenvolvimento de Sistemas" data-en="Systems Analysis and Development">Análise e Desenvolvimento de Sistemas</strong>
+                    </div>
+                    <div class="about-info-item">
+                        <span class="about-info-label" data-pt="formatura prevista" data-en="expected graduation">formatura prevista</span>
+                        <strong class="about-info-value" data-pt="julho de 2028" data-en="July 2028">julho de 2028</strong>
+                    </div>
+                    <div class="about-info-item">
+                        <span class="about-info-label" data-pt="interesses" data-en="interests">interesses</span>
+                        <strong class="about-info-value" data-pt="Suporte, Java e Dados" data-en="Support, Java & Data">Suporte, Java e Dados</strong>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- Linha Divisória de Ponta a Ponta entre o Sobre e as Tecnologias -->
+        <hr class="section-divider">
+
+        <!-- Seção de Tecnologias -->
+        <div class="container about-container">
+            <div class="about-content">
+                <div class="skills-wrapper">
+                    <h3 class="skills-main-title" data-pt="Tecnologias" data-en="Technologies">Tecnologias</h3>
+
+                    <div class="skills-grid">
+                        <!-- Linguagens -->
+                        <div class="skill-category">
+                            <h4 class="skill-category-title" data-pt="Linguagens" data-en="Languages">Linguagens</h4>
+                            <div class="tech-tags">
+                                <span class="tech-tag">Java</span>
+                                <span class="tech-tag">Python</span>
+                                <span class="tech-tag">JavaScript</span>
+                                <span class="tech-tag">HTML</span>
+                                <span class="tech-tag">CSS</span>
+                                <span class="tech-tag">SQL</span>
+                            </div>
+                        </div>
+
+                        <!-- Back-end -->
+                        <div class="skill-category">
+                            <h4 class="skill-category-title">Back-end</h4>
+                            <div class="tech-tags">
+                                <span class="tech-tag">Spring Boot</span>
+                                <span class="tech-tag">Node.js</span>
+                                <span class="tech-tag">REST API</span>
+                                <span class="tech-tag">Maven</span>
+                            </div>
+                        </div>
+
+                        <!-- Dados e IA -->
+                        <div class="skill-category">
+                            <h4 class="skill-category-title" data-pt="Dados e IA" data-en="Data & AI">Dados e IA</h4>
+                            <div class="tech-tags">
+                                <span class="tech-tag">Machine Learning</span>
+                                <span class="tech-tag">Pandas</span>
+                                <span class="tech-tag">Scikit-learn</span>
+                            </div>
+                        </div>
+
+                        <!-- Banco de dados -->
+                        <div class="skill-category">
+                            <h4 class="skill-category-title" data-pt="Banco de dados" data-en="Databases">Banco de dados</h4>
+                            <div class="tech-tags">
+                                <span class="tech-tag">Oracle</span>
+                                <span class="tech-tag">MySQL</span>
+                            </div>
+                        </div>
+
+                        <!-- Suporte e infra -->
+                        <div class="skill-category">
+                            <h4 class="skill-category-title" data-pt="Suporte e infra" data-en="Support & Infra">Suporte e infra</h4>
+                            <div class="tech-tags">
+                                <span class="tech-tag">Windows</span>
+                                <span class="tech-tag">Linux</span>
+                                <span class="tech-tag">Wireshark</span>
+                                <span class="tech-tag">Git</span>
+                                <span class="tech-tag">GitHub</span>
+                                <span class="tech-tag">Render</span>
+                                <span class="tech-tag">Cloudflare</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Linha Divisória de Ponta a Ponta -->
+    <hr class="section-divider">
+
+    <!-- Seção Projetos -->
+    <section id="projetos" class="projects">
+        <div class="container projects-container">
+            <div class="projects-header-wrapper">
+                <h2 class="projects-main-title" data-pt="Projetos" data-en="Projects">Projetos</h2>
+                <p class="projects-subtitle" data-pt="Sistemas desenvolvidos com foco em problemas reais e aplicação prática." data-en="Systems developed focusing on real-world problems and practical application.">Sistemas desenvolvidos com foco em problemas reais e aplicação prática.</p>
+            </div>
+
+            <div class="projects-list">
+                
+                <!-- Projeto 1: Boas Novas -->
+                <div class="project-card">
+                    <div class="project-info-main">
+                        <span class="project-badge production" data-pt="Em desenvolvimento" data-en="In development">Em desenvolvimento</span>
+                        <h3 class="project-title">Boas Novas</h3>
+                        <p class="project-desc" data-pt="Plataforma institucional e portfólio online desenvolvido para a empresa do meu avô, contando com back-end estruturado e deploy em nuvem." data-en="Institutional platform and online portfolio developed for my grandfather's business, featuring a structured back-end and cloud deployment.">
+                            Plataforma institucional e portfólio online desenvolvido para a empresa do meu avô, contando com back-end estruturado e deploy em nuvem.
+                        </p>
+                        <a href="https://boas-novas-api-dj96.onrender.com/" target="_blank" class="project-link">Acessar projeto ↗</a>
+                    </div>
+
+                    <div class="project-tech-side">
+                        <span class="tech-side-label">tecnologias</span>
+                        <div class="tech-tags">
+                            <span class="tech-tag">Java</span>
+                            <span class="tech-tag">Spring Boot</span>
+                            <span class="tech-tag">HTML/CSS</span>
+                            <span class="tech-tag">Render</span>
+                        </div>
+                    </div>
+                </div>
+
+                <hr class="project-card-divider">
+
+                <!-- Projeto 2: Sistema de Biblioteca -->
+                <div class="project-card">
+                    <div class="project-info-main">
+                        <span class="project-badge completed" data-pt="Concluído" data-en="Completed">Concluído</span>
+                        <h3 class="project-title">Sistema de Biblioteca</h3>
+                        <p class="project-desc" data-pt="Sistema de gerenciamento de biblioteca desenvolvido em Java puro via console, focado em lógica e programação orientada a objetos." data-en="Library management system developed in pure Java via console, focused on logic and object-oriented programming.">
+                            Sistema de gerenciamento de biblioteca desenvolvido em Java puro via console, focado em lógica e programação orientada a objetos.
+                        </p>
+                        <a href="https://github.com/itsbueno-br/sistema-biblioteca-java-pure" target="_blank" class="project-link">Ver no GitHub ↗</a>
+                    </div>
+
+                    <div class="project-tech-side">
+                        <span class="tech-side-label">tecnologias</span>
+                        <div class="tech-tags">
+                            <span class="tech-tag">Java</span>
+                            <span class="tech-tag">POO</span>
+                            <span class="tech-tag">IntelliJ</span>
+                        </div>
+                    </div>
+                </div>
+
+                <hr class="project-card-divider">
+
+                <!-- Projeto 3: Sistema de Login -->
+                <div class="project-card">
+                    <div class="project-info-main">
+                        <span class="project-badge completed" data-pt="Concluído" data-en="Completed">Concluído</span>
+                        <h3 class="project-title">Sistema de Login (Front-end)</h3>
+                        <p class="project-desc" data-pt="Interface moderna de autenticação desenvolvida com HTML5 e CSS3, estruturada com foco em design limpo e responsividade." data-en="Modern authentication interface developed with HTML5 and CSS3, structured focusing on clean design and responsiveness.">
+                            Interface moderna de autenticação desenvolvida com HTML5 e CSS3, estruturada com foco em design limpo e responsividade.
+                        </p>
+                        <a href="https://itsbueno-br.github.io/login/" target="_blank" class="project-link">Acessar projeto ↗</a>
+                    </div>
+
+                    <div class="project-tech-side">
+                        <span class="tech-side-label">tecnologias</span>
+                        <div class="tech-tags">
+                            <span class="tech-tag">HTML5</span>
+                            <span class="tech-tag">CSS3</span>
+                            <span class="tech-tag">GitHub Pages</span>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </section>
+
+    <!-- Linha Divisória de Ponta a Ponta -->
+    <hr class="section-divider">
+
+    <!-- Seção Experiência -->
+    <section id="experiencia" class="experience">
+        <div class="container experience-container">
+            <h2 class="experience-main-title" data-pt="Experiência" data-en="Experience">Experiência</h2>
+
+            <div class="experience-list">
+                
+                <!-- Experiência 1: RedeTV! -->
+                <div class="experience-item">
+                    <div class="experience-date-side">
+                        <span class="exp-status" data-pt="atual" data-en="present">atual</span>
+                        <span class="exp-date">06/2026</span>
+                    </div>
+                    
+                    <div class="experience-details">
+                        <h3 class="exp-role" data-pt="Jovem Aprendiz de Suporte Técnico" data-en="IT Support Apprentice">Jovem Aprendiz de Suporte Técnico</h3>
+                        <span class="exp-company">RedeTV!</span>
+                        <p class="exp-desc" data-pt="Suporte ao usuário, configuração de hardware e software, elaboração de manuais técnicos de procedimentos para a equipe, preenchimento e controle de planilhas de chamados e manutenção preventiva/corretiva de equipamentos." data-en="User support, hardware and software configuration, drafting technical procedure manuals for the team, maintaining case logs and maintenance tracking spreadsheets, and preventive/corrective equipment maintenance.">
+                            Suporte ao usuário, configuração de hardware e software, elaboração de manuais técnicos de procedimentos para a equipe, preenchimento e controle de planilhas de chamados e manutenção preventiva/corretiva de equipamentos.
+                        </p>
+                    </div>
+                </div>
+
+                <hr class="project-card-divider">
+
+                <!-- Experiência 2: Hackathon Brasil -->
+                <div class="experience-item">
+                    <div class="experience-date-side">
+                        <span class="exp-status" data-pt="atual" data-en="present">atual</span>
+                        <span class="exp-date">04/2026</span>
+                    </div>
+                    
+                    <div class="experience-details">
+                        <h3 class="exp-role" data-pt="Embaixadora & Staff" data-en="Ambassador & Staff">Embaixadora & Staff</h3>
+                        <span class="exp-company">Hackathon Brasil</span>
+                        <p class="exp-desc" data-pt="Atuação em eventos de tecnologia, apoio na organização, engajamento comunitário e disseminação da cultura de inovação e maratonas de programação." data-en="Participation in technology events, event organization support, community engagement, and promotion of innovation culture and programming marathons.">
+                            Atuação em eventos de tecnologia, apoio na organização, engajamento comunitário e disseminação da cultura de inovação e maratonas de programação.
+                        </p>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </section>
+
+    <!-- Linha Divisória de Ponta a Ponta -->
+    <hr class="section-divider">
+
+    <!-- Seção Cursos e Formação -->
+    <section id="cursos" class="courses">
+        <div class="container courses-container">
+            <h2 class="courses-main-title" data-pt="Cursos e formação" data-en="Courses & Education">Cursos e formação</h2>
+
+            <div class="courses-layout">
+                <!-- Coluna da Esquerda: Lista de Cursos -->
+                <div class="courses-list-side">
+                    <!-- Em Andamento -->
+                    <div class="courses-group">
+                        <h3 class="courses-group-title" data-pt="Em andamento" data-en="In progress">Em andamento</h3>
+                        <ul class="courses-items">
+                            <li class="course-item">
+                                <span class="course-name">Java <span class="dot-pink">•</span></span>
+                                <span class="course-school">Udemy</span>
+                            </li>
+                            <li class="course-item">
+                                <span class="course-name">Implantação de Serviços de IA em Nuvem <span class="dot-pink">•</span></span>
+                                <span class="course-school">SENAI</span>
+                            </li>
+                            <li class="course-item">
+                                <span class="course-name">Desenvolvimento de IA e LLMs <span class="dot-pink">•</span></span>
+                                <span class="course-school">SoulCode</span>
+                            </li>
+                            <li class="course-item">
+                                <span class="course-name">Google Cloud AI Foundations <span class="dot-pink">•</span></span>
+                                <span class="course-school">SENAI</span>
+                            </li>
+                        </ul>
+                    </div>
+
+                    <!-- Concluídos -->
+                    <div class="courses-group">
+                        <h3 class="courses-group-title" data-pt="Concluídos" data-en="Completed">Concluídos</h3>
+                        <ul class="courses-items">
+                            <li class="course-item">
+                                <span class="course-name">IA Generativa</span>
+                                <span class="course-school">SENAI</span>
+                            </li>
+                            <li class="course-item">
+                                <span class="course-name">Desenvolvimento Back-End Java</span>
+                                <span class="course-school">DIO / Santander Bootcamp</span>
+                            </li>
+                            <li class="course-item">
+                                <span class="course-name">Formação Java & Spring Boot</span>
+                                <span class="course-school">Alura</span>
+                            </li>
+                            <li class="course-item">
+                                <span class="course-name">Linguagem Python</span>
+                                <span class="course-school">Fundação Bradesco</span>
+                            </li>
+                            <li class="course-item">
+                                <span class="course-name">Introduction to Data Science</span>
+                                <span class="course-school">Cisco</span>
+                            </li>
+                            <li class="course-item">
+                                <span class="course-name">IA e Computação</span>
+                                <span class="course-school">FIAP</span>
+                            </li>
+                            <li class="course-item">
+                                <span class="course-name">Redes de Computadores</span>
+                                <span class="course-school">Alura</span>
+                            </li>
+                            <li class="course-item">
+                                <span class="course-name">Remote Work Revolution</span>
+                                <span class="course-school">Harvard</span>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+
+                <!-- Coluna da Direita: Card Acadêmico da FIAP -->
+                <div class="courses-card-side">
+                    <div class="academic-card">
+                        <h3 class="academic-title">Análise e Desenvolvimento de Sistemas</h3>
+                        
+                        <div class="academic-meta">
+                            <div class="meta-row">
+                                <span class="meta-label" data-pt="instituição" data-en="institution">instituição</span>
+                                <span class="meta-value">FIAP</span>
+                            </div>
+                            <div class="meta-row">
+                                <span class="meta-label" data-pt="título" data-en="degree">título</span>
+                                <span class="meta-value" data-pt="Tecnóloga" data-en="Associate Degree">Tecnóloga</span>
+                            </div>
+                            <div class="meta-row">
+                                <span class="meta-label" data-pt="conclusão" data-en="expected graduation">conclusão</span>
+                                <span class="meta-value" data-pt="julho de 2028" data-en="July 2028">julho de 2028</span>
+                            </div>
+                        </div>
+
+                        <!-- Badge dos Semestres (S3 Ativo) -->
+                        <div class="semesters-row">
+                            <span class="sem-badge">S1</span>
+                            <span class="sem-badge">S2</span>
+                            <span class="sem-badge active">S3</span>
+                            <span class="sem-badge">S4</span>
+                            <span class="sem-badge">S5</span>
+                        </div>
+
+                        <!-- Idiomas -->
+                        <div class="languages-row">
+                            <span class="lang-pill" data-pt="Inglês intermediário" data-en="Intermediate English">Inglês intermediário</span>
+                            <span class="lang-pill" data-pt="Espanhol básico" data-en="Basic Spanish">Espanhol básico</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Linha Divisória de Ponta a Ponta -->
+    <hr class="section-divider">
+
+    <!-- Seção Contato -->
+    <section id="contato" class="contact">
+        <div class="container contact-container">
+            <!-- Esquerda: Título e Descrição -->
+            <div class="contact-text-side">
+                <h2 class="contact-title" data-pt="Vamos conversar?" data-en="Let's talk?">Vamos conversar?</h2>
+                <p class="contact-subtitle" data-pt="Estou aberta a oportunidades de estágio e a projetos em suporte, desenvolvimento e dados." data-en="I am open to internship opportunities and projects in support, development, and data.">
+                    Estou aberta a oportunidades de estágio e a projetos em suporte, desenvolvimento e dados.
+                </p>
+            </div>
+
+            <!-- Direita: Card Estilo Terminal -->
+            <div class="contact-card-side">
+                <div class="terminal-card">
+                    <div class="terminal-header">
+                        <span class="terminal-dot dot-red"></span>
+                        <span class="terminal-dot dot-yellow"></span>
+                        <span class="terminal-dot dot-green"></span>
+                    </div>
+
+                    <div class="terminal-body">
+                        <p class="terminal-line"><span class="prompt">&gt;</span> <span data-pt="abrindo chamado..." data-en="opening ticket...">abrindo chamado...</span> <span class="status-ok">ok</span></p>
+                        <p class="terminal-line"><span class="prompt">&gt;</span> <span data-pt="técnica disponível" data-en="technician available">técnica disponível</span> <span class="status-ok">ok</span></p>
+                        <p class="terminal-line"><span class="prompt">&gt;</span> <span data-pt="aguardando sua mensagem" data-en="waiting for your message">aguardando sua mensagem</span> <span class="cursor">|</span></p>
+                    </div>
+
+                    <div class="terminal-email-box">
+                        <span class="email-address" id="email-text">maxinedossantosbueno@gmail.com</span>
+                        <button class="btn-copy-email" id="btn-copy" data-pt="Copiar e-mail" data-en="Copy email">Copiar e-mail</button>
+                    </div>
+
+                    <div class="terminal-links">
+                        <a href="https://linkedin.com/in/maxine-bueno-8025a635b" target="_blank" class="terminal-link">LinkedIn ↗</a>
+                        <a href="https://github.com/itsbueno-br" target="_blank" class="terminal-link">GitHub ↗</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer Rodapé -->
+    <footer class="footer">
+        <div class="container footer-container">
+            <span class="footer-copy" data-pt="Feito por Maxine, um chamado por vez." data-en="Made by Maxine, one ticket at a time.">Feito por Maxine, um chamado por vez.</span>
+            <a href="#" class="back-to-top" data-pt="Voltar ao topo ↑" data-en="Back to top ↑">Voltar ao topo ↑</a>
+        </div>
+    </footer>
+
+    <!-- Link para o arquivo JavaScript -->
+    <script src="js/script.js"></script>
+</body>
+</html>
